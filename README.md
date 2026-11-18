@@ -86,14 +86,15 @@ Protect confidential manuscript and participant data when choosing tools.
 
 ## Evaluation
 
-[Eight cases](skills/scientific-paper-craft/evals/evals.json) cover claim
+[Nine cases](skills/scientific-paper-craft/evals/evals.json) cover claim
 calibration, venue/authorship boundaries, protocol assumptions, qualitative
 reporting, clinical prediction and citation checks, visual evidence consistency,
-reuse of an evidence map, and a stateless numerical algorithm.
+reuse of an evidence map, a stateless numerical algorithm, and adaptation of
+the four-move abstract structure to theoretical results and venue constraints.
 
 [The recorded targeted run](skills/scientific-paper-craft/evals/2026-11-18-targeted-results.md)
 preserves actual responses and manual scoring criteria for cases 3, 6, 7 and 8.
-All four passed that run. The other four cases were not rerun for that revision.
+All four passed that run. The other cases were not run in that recorded revision.
 These are single-sample behavioral checks, not a comprehensive reliability
 benchmark or independent scientific validation. All bundled manuscript and
 data fixtures are fictional.

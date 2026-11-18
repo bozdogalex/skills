@@ -48,6 +48,12 @@
       "prompt": "Suggestions only: write concise mathematical pseudocode and a notation key for the supplied median implementation and check the manuscript's description against it. Do not change files or add unrelated persistence or concurrency mechanisms.",
       "expected_output": "Match nonempty finite-real input, sorted copy, odd central element and even two-center average, and ValueError on empty input. Flag that 'returns an observed input value' is false for even inputs (e.g. [2,4] -> 3). No stores, CAS, retries, or unsupported complexity/performance guarantees. State verification is source comparison, not an executed experiment.",
       "files": ["fixtures/median/manuscript.md", "fixtures/median/median.py"]
+    },
+    {
+      "id": 9,
+      "prompt": "Suggestions only: outline an abstract for a theoretical computer-science paper aimed at readers outside its subfield. The supplied facts are: existing exact algorithms solve a graph problem in exponential time; under the stated bounded-width assumption, our algorithm runs in polynomial time; we prove correctness and the conditional complexity bound; we ran no experiments. The venue requires an unstructured abstract of at most 180 words. Show how to organize it without inventing results or requiring a benchmark.",
+      "expected_output": "Organize a connected narrative around setting/problem, established approaches/gap, conceptual approach/contribution, and analytical findings/meaning. Explain bounded width only as far as the supplied facts allow, preserve the conditional assumption, and do not infer general polynomial-time solvability or invent algorithm details. Adapt the fourth move to proof and complexity results rather than empirical comparisons. Respect the unstructured format and 180-word limit without forcing four sentences or headings into the proposed abstract. No file changes.",
+      "files": []
     }
   ]
 }

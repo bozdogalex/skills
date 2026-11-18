@@ -56,12 +56,26 @@ methods as benchmarking, synthesis or empirical characterization rather than
 methodological invention. For focused edits, inspect only enough context to
 preserve the existing argument.
 
-An abstract should let an outsider identify the setting and practical problem,
-what existing approaches establish, the contribution, and the principal findings
-or theoretical result, as appropriate. Lead with what the work contributes and
-teaches; retain important negative findings and distinguish proposals from
-tested or established results.
-Use the venue's actual abstract constraints, not a universal one-page rule.
+**Abstract.** Use four connected moves as the default narrative:
+
+1. **Setting and problem:** introduce the subfield and the concrete problem in
+   language accessible to a reader in the discipline who is outside the subfield.
+2. **Established approaches and gap:** explain how prior work addresses the
+   problem and what remains unresolved, without turning the abstract into a
+   literature catalogue.
+3. **Approach and contribution:** describe the study's conceptual approach and
+   evidence-supported contribution, making its relationship to prior work clear.
+4. **Findings and meaning:** report the principal results, relevant comparisons
+   with established approaches where studied, and what the findings teach.
+   Retain material negative results and qualifications; distinguish proposals
+   from completed studies and conditional results from established guarantees.
+
+These are communicative functions, not four mandatory sentences or a requirement
+for an empirical benchmark. Adapt them to the research design: theoretical work
+may report analytical results, qualitative work interpretive findings, reviews
+an evidence synthesis, and protocols planned evaluation rather than invented
+outcomes. Follow the venue's required headings, order and word limit; use a
+coherent narrative for unstructured abstracts, not a universal one-page rule.
 
 Choose section order for the research story. Combine or separate Discussion
 and Threats to Validity as the work and venue justify. Keep the conclusion
