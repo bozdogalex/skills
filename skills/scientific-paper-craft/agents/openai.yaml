@@ -1,0 +1,4 @@
+interface:
+  display_name: "Scientific Paper Craft"
+  short_description: "Coherent, evidence-bound scientific manuscript writing"
+  default_prompt: "Use $scientific-paper-craft to review this manuscript for its intended scientific readership and study design, and suggest evidence-preserving improvements."

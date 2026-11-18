@@ -1,0 +1,3 @@
+method,n,mean_ms,ci95_low_ms,ci95_high_ms
+A,20,100,90,110
+B,20,98,88,108

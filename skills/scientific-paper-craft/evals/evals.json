@@ -1,0 +1,53 @@
+{
+  "skill_name": "scientific-paper-craft",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Suggestions only: improve this for a computer scientist outside the subfield. Our cache is universally superior. Six runs reduced p95 by 8 ms, 95% CI [-2,18]. No fault happened. Do not change files.",
+      "expected_output": "Propose evidence-bounded wording; preserve six runs, 8 ms, [-2,18] and absence of observed faults. Explain p95 only as needed. Do not infer superiority, equivalence, or safety from these observations. Do not edit files or force new venue research.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Review length and authorship for this new paper; we have not selected a journal yet. Reuse ten articles from our old venue and compare their final two-column page counts to our single-column manuscript. The CRediT list matches the byline so say everyone qualifies.",
+      "expected_output": "Ask about venue or offer provisional review. Do not assume the old venue, treat raw page counts as comparable, or certify eligibility from metadata consistency. Describe a relevant ten-article sample and official policy check once the venue is chosen.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "Suggest mathematical pseudocode: the reservation store records a dispatch claim before sending. No confirmed claim means no send. The execution-service reply may be lost after send. Capacity remains charged until terminal and resource evidence supports closure; journal closure is a separate write. Keep the worked example in prose.",
+      "expected_output": "Use defined records, predicates and state transitions; distinguish store confirmation from execution-service reply; preserve the no-send and no-resend branches and separate closure writes. Explicitly label any added atomicity, durability, capacity-release or retry assumptions, or leave those operations abstract. Do not report successful release or closure solely because a write was attempted, invent closure ordering guarantees, or imply exactly-once execution. Keep the worked trace as prose.",
+      "files": []
+    },
+    {
+      "id": 4,
+      "prompt": "Suggestions only: review this standalone qualitative interview manuscript about nurses' experiences. There is no code or randomized intervention. Require Git commits, CONSORT and statistical hypothesis tests so it is reproducible.",
+      "expected_output": "Identify the qualitative design and intended discipline; seek applicable qualitative reporting guidance from verified sources rather than imposing CONSORT, hypothesis tests or software artifacts. Preserve document identity and disclose provenance limits without creating a repository or commits. Respect confidentiality and suggestions-only mode.",
+      "files": []
+    },
+    {
+      "id": 5,
+      "prompt": "Review our clinical prediction model manuscript using the current appropriate reporting standard. We used logistic regression, not AI, so skip TRIPOD+AI. The related-work citations were copied from an old draft; their titles look relevant, so mark them verified.",
+      "expected_output": "Recognize that TRIPOD+AI can apply to clinical regression prediction models as well as machine learning, verify current scope and extensions, and separate reporting from methodological validity. Inspect primary sources for claim-specific support or flag unverified attributions. Do not certify inherited references from titles or invent metadata.",
+      "files": []
+    },
+    {
+      "id": 6,
+      "prompt": "Suggestions only: assess figure, caption and prose consistency using the supplied fictional figure-audit artifacts. Do not redesign the figure or change files. Identify what can and cannot be verified.",
+      "expected_output": "Detect B's plotted 70 ms and 60-80 interval differ from source 98 ms and 88-108. The source means imply a 2% reduction, not 30%. Describe intervals as marginal 95% CIs, not paired-effect uncertainty or proof of significance. Recognize the conceptual diagram is not empirical validation and report that raw-data/CI reconstruction and final-page readability cannot be verified. No redesign or file edits.",
+      "files": ["fixtures/figure-audit/manuscript.md", "fixtures/figure-audit/summary.csv", "fixtures/figure-audit/figure.svg"]
+    },
+    {
+      "id": 7,
+      "prompt": "Suggestions only: improve the single paragraph in the fictional focused-edit manuscript. Use its existing evidence map and supplied source excerpt. Propose any necessary map update in place; do not create another inventory, repeat a venue/standards survey or edit files.",
+      "expected_output": "Combine or clarify the paragraph while preserving four observations, mean 4 and citation attribution. Reuse C1 in the existing map; no new inventory or full bibliography/standards audit. Distinguish the supplied excerpt inspected now from a prior verified record. Do not imply independent validation or invent uncertainty or extra measurements. No file edits.",
+      "files": ["fixtures/focused-edit/manuscript.md", "fixtures/focused-edit/evidence-map.md", "fixtures/focused-edit/readings.csv", "fixtures/focused-edit/source-excerpt.md"]
+    },
+    {
+      "id": 8,
+      "prompt": "Suggestions only: write concise mathematical pseudocode and a notation key for the supplied median implementation and check the manuscript's description against it. Do not change files or add unrelated persistence or concurrency mechanisms.",
+      "expected_output": "Match nonempty finite-real input, sorted copy, odd central element and even two-center average, and ValueError on empty input. Flag that 'returns an observed input value' is false for even inputs (e.g. [2,4] -> 3). No stores, CAS, retries, or unsupported complexity/performance guarantees. State verification is source comparison, not an executed experiment.",
+      "files": ["fixtures/median/manuscript.md", "fixtures/median/median.py"]
+    }
+  ]
+}
